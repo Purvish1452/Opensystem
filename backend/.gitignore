@@ -1,0 +1,111 @@
+# ============================================
+# Backend (Node.js + Express) .gitignore
+# ============================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Note: We do NOT ignore package-lock.json, yarn.lock, 
+# or pnpm-lock.yaml as they should be committed for reproducible builds.
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & Testing
+coverage/
+*.lcov
+.nyc_output/
+.grunt/
+lib-cov/
+.coverage/
+.coverage.*
+junit.xml
+test-results/
+
+# Build & Distribution
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+
+# IDE & Editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Database 
+*.mongodb
+data/
+dump/
+*.bson
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads & Media
+uploads/
+public/uploads/
+temp/
+tmp/
+*.tmp
+
+# TypeScript
+*.tsbuildinfo
+.tsbuildinfo
+
+# Serverless & Deployment
+.serverless/
+.webpack/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Brain/Artifacts (Gemini AI)
+.gemini/
+brain/
