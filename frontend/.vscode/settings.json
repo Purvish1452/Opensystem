@@ -1,0 +1,12 @@
+{
+    "css.customData": [
+        "./.vscode/tailwind-data.json"
+    ],
+    "css.validate": true,
+    "less.validate": true,
+    "scss.validate": true,
+    "tailwindCSS.emmetCompletions": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    }
+}
